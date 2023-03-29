@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
 
-	<title>MOV2</title>
+	<title>Document</title>
   <style>
     .jwplayer .jw-rightclick .jw-rightclick-list {
         border-radius: 1px;
@@ -15,10 +15,28 @@
 </style> 
 </head>
 <body>
-<div id="jw-player"></div>
+<div id="movie"></div>
 <script>
-file = {
-    src: "http://bigf.bigo.sg/asia_live/V4s6/2fI9b4.mp4"
+movie = {
+    src: "http://bigf.bigo.sg/asia_live/V4s6/2fI9b4.mp4",
+  	subtitles: [
+        {
+            lang: "English",
+            src: "https://res.cloudinary.com/do1zdkwaj/raw/upload/v1680077685/Blood/dirick/en_y51cdu.vtt"
+        },
+        {
+            lang: "Khmer",
+            src: "https://res.cloudinary.com/do1zdkwaj/raw/upload/v1680077685/Blood/dirick/km_jjirxw.vtt"
+        },
+        {
+            lang: "Thai",
+            src: "https://res.cloudinary.com/do1zdkwaj/raw/upload/v1680077685/Blood/dirick/th_sskjkp.vtt"
+        },
+        {
+            lang: "Indonesia",
+            src: "https://res.cloudinary.com/do1zdkwaj/raw/upload/v1680077685/Blood/dirick/id_odk92m.vtt"
+        }
+    ]
 };
 </script>
 	
